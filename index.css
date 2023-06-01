@@ -3,6 +3,9 @@
 }
 body {
   text-shadow: 0 0 0 black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
 }
 .container {
   background-color: lightblue;
