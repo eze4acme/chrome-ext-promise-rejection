@@ -6,6 +6,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   object-fit: cover;
+  background-color: lightseagreen;
 }
 .container {
   background-color: lightblue;
