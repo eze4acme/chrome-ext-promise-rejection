@@ -20,7 +20,7 @@ fetch('https://api.coingecko.com/api/v3/coins/dogecoin')
         }
         
         return res.json()})
-    .then(data => {console.log(data)
+    .then(data => {data
         document.getElementById('top-subset').innerHTML = `
         <img src=${data.image.small}>
         <p class='top-name'>${data.name}</p>

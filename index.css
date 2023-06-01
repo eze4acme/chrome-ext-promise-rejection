@@ -39,3 +39,13 @@ main h1 {
   padding: 10px;
   border-radius: 50%;
 }
+
+@media (min-width: 100px) {
+  body{
+    height: 100vh;
+  }
+  .author {
+    text-align: center;
+    left: 10px;
+  }
+}
